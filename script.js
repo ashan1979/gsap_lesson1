@@ -24,5 +24,6 @@ timeline
     const button = document.querySelector('.button')
 
     button.addEventListener('click', () => {
+        timeline.timeScale(5)
         timeline.reverse()
     })
